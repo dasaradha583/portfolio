@@ -1,1 +1,327 @@
-<!DOCTYPE html>\n<html lang="en">\n<head>\n    <meta charset="UTF-8">\n    <meta name="viewport" content="width=device-width, initial-scale=1.0">\n    <link rel="stylesheet" href="styles.css">\n    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>\n    <title>Portfolio</title>\n</head>\n<body>\n    <nav>\n        <ul>\n            <li><a href="#home">Home</a></li>\n            <li><a href="#about">About</a></li>\n            <li><a href="#skills">Skills</a></li>\n            <li><a href="#experience">Experience</a></li>\n            <li><a href="#projects">Projects</a></li>\n            <li><a href="#achievements">Achievements</a></li>\n            <li><a href="#education">Education</a></li>\n            <li><a href="#contact">Contact</a></li>\n        </ul>\n    </nav>\n    <header id="home">\n        <h1>Welcome to My Portfolio</h1>\n        <p>This is the main landing page of my portfolio website.</p>\n    </header>\n    <section id="about">\n        <h2>About Me</h2>\n        <p>Details about me.</p>\n    </section>\n    <section id="skills">\n        <h2>Skills</h2>\n        <p>List of skills.</p>\n    </section>\n    <section id="experience">\n        <h2>Experience</h2>\n        <p>Work experience details.</p>\n    </section>\n    <section id="projects">\n        <h2>Projects</h2>\n        <p>Details of projects.</p>\n    </section>\n    <section id="achievements">\n        <h2>Achievements</h2>\n        <p>A list of achievements.</p>\n    </section>\n    <section id="education">\n        <h2>Education</h2>\n        <p>Educational background.</p>\n    </section>\n    <section id="contact">\n        <h2>Contact</h2>\n        <p>Contact details.</p>\n    </section>\n    <script src="script.js"></script>\n</body>\n</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Bikkam Venkata Dasaradha Rami Reddy - Backend Developer & Final Year IT Student">
+    <title>Dasaradha's Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-brand">Dasaradha</div>
+            <button class="nav-toggle" id="navToggle">
+                <i class="fas fa-bars"></i>
+            </button>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#experience" class="nav-link">Experience</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#achievements" class="nav-link">Achievements</a></li>
+                <li><a href="#education" class="nav-link">Education</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="hero-title">Hi, I'm <span class="text-gradient">Dasaradha</span></h1>
+                <h2 class="hero-subtitle">Backend Developer & IT Student</h2>
+                <p class="hero-description">
+                    Final-year B.Tech student passionate about building robust backend systems 
+                    and solving real-world problems through technology.
+                </p>
+                <div class="hero-buttons">
+                    <a href="#contact" class="btn btn-primary">Get In Touch</a>
+                    <a href="#projects" class="btn btn-secondary">View Projects</a>
+                </div>
+                <div class="social-links">
+                    <a href="https://github.com/dasaradha583" target="_blank" aria-label="GitHub">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/in/bikkam-venkata-dasaradha-rami-reddy-42217726a/" target="_blank" aria-label="LinkedIn">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                    <a href="https://leetcode.com/dasaradha583" target="_blank" aria-label="LeetCode">
+                        <i class="fas fa-code"></i>
+                    </a>
+                    <a href="mailto:dasaradharamireddy583@gmail.com" aria-label="Email">
+                        <i class="fas fa-envelope"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>
+                        I'm a final-year B.Tech student in Information Technology with strong foundations in 
+                        <strong>Java, Python, SQL, HTML, and CSS</strong>. I have hands-on experience in building 
+                        full-stack web applications and machine learning models.
+                    </p>
+                    <p>
+                        My passion lies in <strong>software development, backend systems, and AI</strong>. 
+                        I recently completed a backend internship at Zautomate, where I contributed to a 
+                        Hospital Management System using Spring Framework.
+                    </p>
+                    <p>
+                        I'm constantly learning and improving my skills through competitive programming, 
+                        hackathons, and building real-world projects.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section bg-light">
+        <div class="container">
+            <h2 class="section-title">Technical Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <i class="fas fa-code"></i>
+                    </div>
+                    <h3>Programming</h3>
+                    <ul class="skill-list">
+                        <li>Java</li>
+                        <li>Python</li>
+                        <li>C</li>
+                        <li>SQL</li>
+                    </ul>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <i class="fas fa-globe"></i>
+                    </div>
+                    <h3>Web Technologies</h3>
+                    <ul class="skill-list">
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>JavaScript</li>
+                    </ul>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <i class="fas fa-layer-group"></i>
+                    </div>
+                    <h3>Frameworks</h3>
+                    <ul class="skill-list">
+                        <li>Spring Boot</li>
+                        <li>Hibernate</li>
+                        <li>React JS</li>
+                    </ul>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <i class="fas fa-tools"></i>
+                    </div>
+                    <h3>Tools</h3>
+                    <ul class="skill-list">
+                        <li>Visual Studio Code</li>
+                        <li>IntelliJ IDEA</li>
+                        <li>Git</li>
+                        <li>JUnit</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="section">
+        <div class="container">
+            <h2 class="section-title">Work Experience</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <h3>Backend Intern</h3>
+                            <span class="timeline-date">Jun 2025 - Jul 2025</span>
+                        </div>
+                        <h4 class="company">Zautomate</h4>
+                        <ul class="experience-list">
+                            <li>Contributed to the development of a Hospital Management System using Spring Framework</li>
+                            <li>Designed and implemented RESTful APIs for patient and hospital data management</li>
+                            <li>Integrated backend services with databases to support real-time data access</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section bg-light">
+        <div class="container">
+            <h2 class="section-title">Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-icon">
+                        <i class="fas fa-heartbeat"></i>
+                    </div>
+                    <h3>Blood Bank Management System</h3>
+                    <p>
+                        Built a Spring Boot based application for donor registration, blood inventory 
+                        and request tracking with RESTful APIs and MySQL database.
+                    </p>
+                    <div class="tech-tags">
+                        <span class="tag">Spring Boot</span>
+                        <span class="tag">React</span>
+                        <span class="tag">MySQL</span>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-icon">
+                        <i class="fas fa-leaf"></i>
+                    </div>
+                    <h3>Wheat Leaf Disease Detection</h3>
+                    <p>
+                        Developed a machine learning model to detect and classify wheat leaf diseases 
+                        from image datasets with preprocessing and augmentation techniques.
+                    </p>
+                    <div class="tech-tags">
+                        <span class="tag">Python</span>
+                        <span class="tag">TensorFlow</span>
+                        <span class="tag">Keras</span>
+                        <span class="tag">OpenCV</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Achievements Section -->
+    <section id="achievements" class="section">
+        <div class="container">
+            <h2 class="section-title">Achievements & Certifications</h2>
+            <div class="achievements-grid">
+                <div class="achievement-card">
+                    <div class="achievement-icon">
+                        <i class="fas fa-trophy"></i>
+                    </div>
+                    <h3>Achievements</h3>
+                    <ul>
+                        <li>5-Star in Java on HackerRank</li>
+                        <li>Participated in Smart India Hackathon (SIH) 2024 at VVITU</li>
+                        <li>Solved numerous LeetCode challenges</li>
+                    </ul>
+                </div>
+                <div class="achievement-card">
+                    <div class="achievement-icon">
+                        <i class="fas fa-certificate"></i>
+                    </div>
+                    <h3>Certifications</h3>
+                    <ul>
+                        <li>Oracle Certified Foundations Associate – Java</li>
+                        <li>Programming in Java – NPTEL (69%)</li>
+                        <li>Programming, Data Structures and Algorithms using Python – NPTEL (65%)</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="section bg-light">
+        <div class="container">
+            <h2 class="section-title">Education</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <h3>B.Tech in Information Technology</h3>
+                        <h4>Vasireddy Venkatadri International Technological University</h4>
+                        <p class="timeline-date">September 2022 – May 2026</p>
+                        <p><strong>CGPA:</strong> 7.65 (to date)</p>
+                        <p>Guntur, Andhra Pradesh, India</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <h3>Pre-University Course (PUC)</h3>
+                        <h4>Rajiv Gandhi University of Knowledge and Technologies</h4>
+                        <p class="timeline-date">2020 – 2022</p>
+                        <p><strong>CGPA:</strong> 8.53</p>
+                        <p>Ongole, Andhra Pradesh, India</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <h3>Secondary Education</h3>
+                        <h4>Dr. KKR Gowtham High School</h4>
+                        <p class="timeline-date">2019 – 2020</p>
+                        <p><strong>Percentage:</strong> 100%</p>
+                        <p>Guntur, Andhra Pradesh, India</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <div class="contact-content">
+                <p class="contact-description">
+                    I'm currently looking for new opportunities! Whether you have a question or just want to say hi, 
+                    I'll try my best to get back to you!
+                </p>
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <a href="mailto:dasaradharamireddy583@gmail.com">dasaradharamireddy583@gmail.com</a>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <a href="tel:+917075033549">+91 7075033549</a>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <span>Guntur, Andhra Pradesh, India</span>
+                    </div>
+                </div>
+                <div class="contact-buttons">
+                    <a href="mailto:dasaradharamireddy583@gmail.com" class="btn btn-primary">
+                        <i class="fas fa-envelope"></i> Email Me
+                    </a>
+                    <a href="https://www.linkedin.com/in/bikkam-venkata-dasaradha-rami-reddy-42217726a/" target="_blank" class="btn btn-secondary">
+                        <i class="fab fa-linkedin"></i> Connect on LinkedIn
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 Bikkam Venkata Dasaradha Rami Reddy. Built with passion.</p>
+            <div class="footer-links">
+                <a href="https://github.com/dasaradha583" target="_blank"><i class="fab fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/bikkam-venkata-dasaradha-rami-reddy-42217726a/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                <a href="https://leetcode.com/dasaradha583" target="_blank"><i class="fas fa-code"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
